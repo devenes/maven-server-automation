@@ -9,13 +9,17 @@
 <h1 align="center">Maven As a Build Tool</h1>
 
 <p align="center">
-  <img alt="Github top language" src="https://img.shields.io/github/languages/top/devenes/maven-server-automation?color=purple"> <img alt="Github language count" src="https://img.shields.io/github/languages/count/devenes/maven-server-automation?color=purple">  <img alt="Repository size" src="https://img.shields.io/github/repo-size/devenes/maven-server-automation?color=purple">  <img alt="License" src="https://img.shields.io/github/license/devenes/maven-server-automation?color=purple">
+<div align="center">
+  
+  [![pages-build-deployment](https://github.com/devenes/maven-server-automation/actions/workflows/pages/pages-build-deployment/badge.svg)](https://github.com/devenes/maven-server-automation/actions/workflows/pages/pages-build-deployment)  <img alt="Github top language" src="https://img.shields.io/github/languages/top/devenes/maven-server-automation?color=purple"> <img alt="Github language count" src="https://img.shields.io/github/languages/count/devenes/maven-server-automation?color=purple">  <img alt="Repository size" src="https://img.shields.io/github/repo-size/devenes/maven-server-automation?color=purple">  <img alt="License" src="https://img.shields.io/github/license/devenes/maven-server-automation?color=purple">
 
   <!-- <img alt="Github issues" src="https://img.shields.io/github/issues/devenes/maven-server-automation?color=purple" /> -->
 
   <!-- <img alt="Github forks" src="https://img.shields.io/github/forks/devenes/maven-server-automation?color=purple" /> -->
 
   <!-- <img alt="Github stars" src="https://img.shields.io/github/stars/devenes/maven-server-automation?color=purple" /> -->
+
+</div>
 </p>
 
 <!-- Status -->
