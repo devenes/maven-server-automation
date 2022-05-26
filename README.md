@@ -1,11 +1,66 @@
-# Using Maven As a Build Tool
+<div align="center" id="top"> 
+  <img src="maven.jpg" alt="Maven Server Automation" />
 
-Purpose of the this hands-on training is to teach the students how to use Maven with Java as a build tool.
+  &#xa0;
+
+  <!-- <a href="https://mavenserverautomation.netlify.app">Demo</a> -->
+</div>
+
+<h1 align="center">Maven As a Build Tool</h1>
+
+<p align="center">
+  <img alt="Github top language" src="https://img.shields.io/github/languages/top/devenes/maven-server-automation?color=56BEB8"> <img alt="Github language count" src="https://img.shields.io/github/languages/count/devenes/maven-server-automation?color=56BEB8">  <img alt="Repository size" src="https://img.shields.io/github/repo-size/devenes/maven-server-automation?color=56BEB8">  <img alt="License" src="https://img.shields.io/github/license/devenes/maven-server-automation?color=56BEB8">
+
+  <!-- <img alt="Github issues" src="https://img.shields.io/github/issues/devenes/maven-server-automation?color=56BEB8" /> -->
+
+  <!-- <img alt="Github forks" src="https://img.shields.io/github/forks/devenes/maven-server-automation?color=56BEB8" /> -->
+
+  <!-- <img alt="Github stars" src="https://img.shields.io/github/stars/devenes/maven-server-automation?color=56BEB8" /> -->
+</p>
+
+<!-- Status -->
+
+<!-- <h4 align="center"> 
+	🚧  Maven Server Automation 🚀 Under construction...  🚧
+</h4> 
+
+<hr> -->
+
+<p align="center">
+  <a href="#dart-about">About</a> &#xa0; | &#xa0; 
+  <a href="#rocket-technologies">Technologies</a> &#xa0; | &#xa0;
+  <a href="#white_check_mark-requirements">Requirements</a> &#xa0; | &#xa0;
+  <a href="#checkered_flag-starting">Starting</a> &#xa0; | &#xa0;
+  <a href="#memo-license">License</a> &#xa0; | &#xa0;
+  <a href="https://github.com/devenes" target="_blank">Author</a>
+</p>
+
+<br>
+
+## :dart: About ##
+
+Purpose of the this hands-on project is to have the understanding about how to use Maven with Java as a build tool.
+
+## :rocket: Technologies ##
+
+The following tools were used in this project:
+
+- [Java](https://www.java.com/en/download/)
+- [Maven](https://maven.apache.org/)
+- [Git](https://git-scm.com/)
+- [Terraform](https://www.terraform.io/)
+
+## :white_check_mark: Requirements ##
+
+Before starting :checkered_flag:, you need to have [Java](https://www.java.com/), [Maven](https://maven.apache.org/) and [Git](https://git-scm.com/) installed.
+
+## :checkered_flag: Starting ##
 
 
-## Learning Outcomes
 
-At the end of the this hands-on training, students will be able to;
+### Learning Outcomes
+
+At the end of the this hands-on training, you will be able to;
 
 - install Maven and Java-11 on Amazon Linux 2 EC2 instance
 
@@ -57,7 +112,6 @@ mvn --version
 ```bash
 sudo reboot
 ```
-
 
 ## Part 2 - Generate a Java application using Maven's Archetype Plugin
 
@@ -124,7 +178,6 @@ mvn clean test
 
 - Show the content of the file ```<project-root>/target/surefire-report/com.devenes.maven.AppTest.txt``` as the output of the test.
 
-
 >### mvn package
 
 - Run the command below.
@@ -181,7 +234,6 @@ java -jar maven-experiment-1.0-SNAPSHOT.jar
 mvn clean package
 ```
 
-
 >### Run The Application
 
 - Now, open up a fresh terminal on your local computer and run the command below.
@@ -203,7 +255,6 @@ java -jar maven-experiment-1.0-SNAPSHOT-jar-with-dependencies.jar
 - Explain what the application does in the background.
     - Note that to be able see the object and the S3 bucket, we should comment the lines 142 and 150.
 
-
 >### mvn install
 
 - Run the command below to install our own package into .m2 folder.
@@ -213,7 +264,6 @@ mvn install
 ```
 
 - Go into ```~/.m2/repository``` folder and show where our package is installed.
-
 
 >### mvn site
 
@@ -277,9 +327,9 @@ Getting Started with Amazon S3
 Creating bucket my-first-s3-bucket-d7b250f9-be4d-4534-bc22-9c32d83dc3b1
 
 Listing buckets
- - cf-templates-18zcgon5jhvi2-us-east-1
+ - cf-templates-1qe8zcgon5jhvi2-us-east-1
  - my-first-s3-bucket-d7b250f9-be4d-4534-bc22-9c32d83dc3b1
- - terraform-env-bucket
+ - terraform-12321env-bucket
 
 Uploading a new object to S3 from a file
 
@@ -300,3 +350,14 @@ Deleting an object
 
 Deleting bucket my-first-s3-bucket-d7b250f9-be4d-4534-bc22-9c32d83dc3b1
 ```
+
+## :memo: License ##
+
+This project is under license from Apache. For more details, see the [LICENSE](LICENSE) file.
+
+
+Made with :heart: by <a href="https://github.com/devenes" target="_blank">devenes</a>
+
+&#xa0;
+
+<a href="#top">Back to top</a>
